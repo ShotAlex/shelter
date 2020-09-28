@@ -323,3 +323,46 @@ h5 {
 }
 
 /* END IN ADDING */
+
+
+
+
+/* FOOTER */
+.footer {
+  background: url(noise_lines_transparent@2X.png),
+  radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%),
+  #211F20;
+  align-items: start;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  padding: 60px 0px;
+  max-width: 320px;
+}
+
+.footer-item h3 {
+  color: #fff;
+  max-width: 288px;
+}
+
+.footer-item a {
+  margin-top: 40px;
+  display: flex;
+}
+
+.footer-item img{
+  margin-right: 20px;
+  width: 40px;
+  height: 32px;
+}
+.footer-item-puppy  {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-end;
+
+}
+/* END FOOTER */
