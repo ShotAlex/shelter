@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.button {
+  padding: 15px 45px;
+  background: #F1CDB3;
+  border-radius: 100px;
+  cursor: pointer;
+  outline: none;
+
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+
+.button:hover {
+  background: #FDDCC4;
+}
+
+/* HEADER */
+.header {
+  background-color: transparent;
+  position: absolute;
+  max-width: 1200px;
+  width: 100%;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.header__logo {}
+.header__logo h1 {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+.header__logo span {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+.header__nav {
+  display: flex;
+}
+.header__nav a {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160%;
+  color: #CDCDCD;
+
+  cursor: pointer;
+}
+
+.header__nav a:hover {
+  color: #FAFAFA;
+}
+
+.header__nav .active {
+  color: #FAFAFA;
+  border-bottom: 3px solid #F1CDB3;
+}
+.header__nav a + a {
+  margin-left: 35px;
+}
+/*  HEADER */
+
+
+
+/* NOT ONLY */
+.not-only {
+  padding: 343px 0 244px;
+  background: 
+  url(./assets/start-screen-puppy.png) 632px bottom no-repeat,
+  url(./assets/start-screen-background.png) no-repeat;
+  /* background: url(./assets/start-screen-puppy.png) no-repeat; */
+  background-size: 50%, cover;
+}
+
+.not-only h2{
+  max-width: 410px;
+
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.not-only p{
+  margin: 42px 0 41px;
+  max-width: 460px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160%;
+  color: #CDCDCD;
+}
+.not-only button{}
+/* END NOT ONLY */
+
